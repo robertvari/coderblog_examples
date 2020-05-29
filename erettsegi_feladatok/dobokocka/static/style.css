@@ -1,0 +1,57 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url('./bg.png');
+    color: #00008b;
+}
+
+main {
+    background-color: #f0f8ff;
+    padding: 5px;
+    max-width: 930px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 5px;
+}
+
+div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+section {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    padding: 5px;
+}
+
+p {
+    text-align: justify;
+}
+
+header p {
+    font-style: italic;
+    font-size: 10pt;
+}
+
+hr {
+    width: 80%;
+}
+
+img {
+    width: 80%;
+    align-self: center;
+}
+
+a, h1, h2{
+    color: #dc143c;
+}
+
+h2 {
+    font-size: 17pt;
+}
