@@ -55,3 +55,13 @@ a, h1, h2{
 h2 {
     font-size: 17pt;
 }
+
+@media only screen and (max-width: 400px) {
+    div {
+      display: flex;
+      flex-direction: column;
+    }
+    a {
+        word-wrap: break-word;
+    }
+  }
