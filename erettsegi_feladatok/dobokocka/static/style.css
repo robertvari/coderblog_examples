@@ -15,7 +15,7 @@ header {
     padding: 5px;
 }
 
-div {
+.article-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
@@ -57,7 +57,7 @@ h2 {
 }
 
 @media only screen and (max-width: 400px) {
-    div {
+    .article-grid {
       display: flex;
       flex-direction: column;
     }
